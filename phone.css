@@ -1,0 +1,102 @@
+/* Navigation Section */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    align-items: center;
+
+}
+
+#navbar ul a {
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+/*-------------------- Home section---------------------- */
+#home {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding: 3px 25px;
+    color: white;
+}
+
+#home h2 {
+    font-size: 2rem;
+}
+
+#home h4 {
+    font-size: 1rem;
+}
+
+.para {
+    font-size: 1rem;
+}
+
+/*---------------------- Service Section------------ */
+
+.services {
+    flex-direction: column;
+    position: sticky;
+}
+
+.s-heading {
+    padding: 4px;
+    font-size: 2.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.c1 img {
+    height: 100px;
+    margin: auto;
+
+}
+
+
+/* Client section */
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.c-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding: 0px 15px;
+}
+
+
+/* Contact us section */
+.contact-heading {
+    padding-left: 15px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer section */
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-size: 1.2rem;
+}
