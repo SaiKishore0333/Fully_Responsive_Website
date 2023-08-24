@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+#navbar::before {
+    content: "";
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: black no-repeat center;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+#logo img {
+    height: 80px;
+    margin: 3px 25px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px 35px;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: 0.4 ease-in;
+    cursor: pointer;
+
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+
+}
+
+/*------------------------------------------ Home section ---------------------------*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before {
+    content: "";
+    background: url(./images/bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    height: 600px;
+    width: 100%;
+    opacity: 0.90;
+    z-index: -1;
+}
+
+.logo2 {
+    position: relative;
+
+}
+
+
+#home h2 {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#home h4 {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 18px;
+}
+
+.para {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn2 {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(89, 128, 26, 0.921);
+    border: 2px solid white;
+    color: white;
+    font-family: 'poppins';
+
+}
+
+.btn2:hover {
+    color: white;
+    background-color: rgb(111, 67, 147);
+    border: 2px solid white;
+}
+
+/*--------------------------------------- Services section -------------------------------------*/
+
+#m-services {
+    /* display: flex;  */
+    margin: 40px 0px;
+}
+
+.services {
+    display: flex;
+
+}
+
+.c1 {
+
+    border: 2px solid red;
+    margin: 70px 25px;
+    margin-bottom: 25px;
+    padding: 20px 80px;
+    border-radius: 30px;
+}
+
+.c1 img {
+    display: block;
+    height: 156px;
+    margin: auto;
+}
+
+.s-heading {
+    padding-left: 700px;
+    font-size: 2.3rem;
+}
+
+/*----------------------------------------- client section-------------------------- */
+
+.c-heading {
+    padding-left: 700px;
+    font-size: 2.3rem;
+}
+
+#m-clients {
+    position: relative;
+}
+
+#m-clients::before {
+    content: "";
+    position: absolute;
+    background: url('./images/bg.jpg') no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-box img {
+    height: 120px;
+    margin: 25px 60px;
+
+
+}
+
+/*---------------------------------------------- contact section----------------- */
+
+#contact {
+    position: relative;
+    margin-top: 5px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url('./images/contact.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.30;
+    padding-top: 40px;
+
+}
+
+#contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    margin: 41px 0px;
+
+}
+
+#contactform input,
+#contactform textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contactform {
+    /* width: 40%; */
+}
+
+#contactform label {
+    font-size: 1.3rem;
+    font-family: 'poppins', serif;
+
+}
+
+.contact-heading {
+    padding-left: 700px;
+    font-size: 2.3rem;
+}
+
+/* footer section */
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+/* position: relative;
+    animation-direction:alternate-reverse ;
+    animation-iteration-count: infinite;
+    animation-name: footer;
+    animation-duration: 2s; */
+
+/* @keyframes footer{
+    from {background-color: #fff;}
+    to {background-color: red;}
+} */
